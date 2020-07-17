@@ -1,0 +1,12 @@
+* {
+  /* 这里老师简单才使用*但是这种效率很低 */
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+.fr {
+  float: right;
+}

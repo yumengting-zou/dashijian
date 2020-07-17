@@ -1,0 +1,41 @@
+.login-container {
+  height: 100%;
+  background: url('../images/login_bg.jpg') no-repeat;
+  background-size: cover;
+}
+.login-area {
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.login-area-title {
+  font-size: 0;
+  height: 60px;
+  background: url('../images/login_title.png') no-repeat center;
+}
+.layui-form-login .layui-input-block {
+  margin-left: 0;
+  position: relative;
+}
+.layui-form-login .layui-input-block .layui-icon{
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+.layui-form-login .layui-input-block .layui-input {
+  padding-left: 30px;
+}
+.layui-form {
+  padding: 0 30px;
+}
+.layui-input-block span{
+  cursor: pointer;
+}
+.layui-input-block span:hover{
+  color: #777;
+}
